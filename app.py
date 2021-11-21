@@ -1,11 +1,9 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 @app.route("/")
-def home():
-    return "Hello World"
-
-if __name__ == "__my-app.py":
+def homepage():
+    return render_template("homepage.html")
+if __name__ == "__app.py":
     app.run(debug=True)
-
