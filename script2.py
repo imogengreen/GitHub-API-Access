@@ -2,7 +2,7 @@
 import pymongo              # for mongodb access
 import pprint               # for pretty printing db data
 
-print("Demonstration python based mongodb access");
+# print("Demonstration python based mongodb access");
 
 # Let's get the user object from the db
 # Establish connection
