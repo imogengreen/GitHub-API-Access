@@ -12,7 +12,7 @@ if __name__ == "__app.py__":
 def languages():
     return render_template("languages.html")
 
-@app.route("/followers")
+@app.route("/followers", methods=['POST'])
 def followers():
     return render_template("followers.html")
 
