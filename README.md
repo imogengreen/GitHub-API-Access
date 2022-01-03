@@ -15,7 +15,9 @@ The quickest way to see this visualisation in action is using the data contained
 
 1. Clone the repository into a local directory
 2. Navigate to that directory
-3. 
+3. Either run the shell script _run-server.sh_ or manually enter its contents into your command line, the end result will be the same. The contents of this shell script are _python3 -m http.server_.
+4. Navigate to localhost:8000 in your browser.
+5. Voilà! Now you have the visualisations up and running. 
 
 For demonstrative purposes, I have captured the visualisations that are returned to me when I execute this application using my own personal access token.
 # Demo
