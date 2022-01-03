@@ -11,6 +11,7 @@ This visualisation project has been written in Python and makes use of the PyGit
 For demonstrative purposes, I have captured the visualisations that are returned to me when I execute this application using my own personal access token.
 # Demo
 Here is a brief demonstration of my visualisation:
+
 ![Visualisation demo](demo/demo.gif)
 
 # Requirements
