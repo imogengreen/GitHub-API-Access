@@ -9,7 +9,13 @@ The data is gathered into the appropriate JSON files by running _gather.sh_. The
 _run-server.sh_.
 The visualisation can then be viewed by navigating to localhost:8000 in your browser.
 
-This visualisation project has been written in Python and makes use of the PyGithub library for data retrieval from the GitHub API. The retrieved data is written to local JSON files which are then used in the visualisations. **NOTE**: to run this application and retrieve data, you will need to generate a personal access token and pass that token into the appropriate place within _main.py_. You can find more information about generating personal access tokens at the following link: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+This visualisation project has been written in Python and makes use of the PyGithub library for data retrieval from the GitHub API. The retrieved data is written to local JSON files which are then used in the visualisations. **NOTE**: to retrieve data, you will need to generate a personal access token and pass that token into the appropriate place within _main.py_. You can find more information about generating personal access tokens at the following link: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+The quickest way to see this visualisation in action is using the data contained in the JSON files within this repository. To do this, you must:
+
+1. Clone the repository into a local directory
+2. Navigate to that directory
+3. 
 
 For demonstrative purposes, I have captured the visualisations that are returned to me when I execute this application using my own personal access token.
 # Demo
