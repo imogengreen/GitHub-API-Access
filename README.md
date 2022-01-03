@@ -13,8 +13,8 @@ This visualisation project has been written in Python and makes use of the PyGit
 
 The quickest way to see this visualisation in action is using the data contained in the JSON files within this repository. To do this, you must:
 
-1. Clone the repository into a local directory
-2. Navigate to that directory
+1. Clone the repository into a local directory.
+2. Navigate to that directory.
 3. Either run the shell script _run-server.sh_ or manually enter its contents into your command line, the end result will be the same. The contents of this shell script are _python3 -m http.server_.
 4. Navigate to localhost:8000 in your browser.
 5. Voilà! Now you have the visualisations up and running. 
