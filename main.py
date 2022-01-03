@@ -6,9 +6,7 @@ g = Github("token")
 
 user = g.get_user()
 
-dct = {'user': user.login,
-       'fullname': user.name,
-       'location': user.location,
+dct = {
        'public_repos': user.public_repos,
        'private_repos': user.total_private_repos
        }
