@@ -3,7 +3,8 @@ Part of the coursework for CSU33012 Software Engineering. We were tasked with in
 
 # Description
 This implementation retrieves data about the repositories belonging to the authenticated user (such as their size, top languages etc.), and then visualises this data using the JavaScript library D3.js. You can find more information about D3.js here:
-https://d3js.org/
+https://d3js.org/.
+
 The data is gathered into the appropriate JSON files by running _gather.sh_. The visualisation is served using a simple HTTP server which is initialised by running the script
 _run-server.sh_.
 The visualisation can then be viewed by navigating to localhost:8000 in your browser.
